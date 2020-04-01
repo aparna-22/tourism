@@ -1,0 +1,50 @@
+*{
+  padding :0;
+  margin: 0;
+}
+body{
+background-size: cover;
+  background-repeat: no-repeat;
+background-position: center;
+}
+.navbar-brand{
+  font-size: xx-large;
+}
+
+.icon a{
+  font-family: cursive;
+  padding: 10px;
+}
+.title c{
+  font-family: fantasy;
+  color: darkgreen;
+  font-size: x-large;
+  font-weight: 900;
+  padding: 30px;
+  margin-top: 30px;
+  
+}
+
+.description{
+  padding-top:140px;
+  padding-left: 140px;
+  margin: 50px;
+  color:white ;
+}
+.description h2{
+  font-family: 'Courier New', Courier, monospace
+}
+.description h3{
+  font-family: cursive;
+}
+.signbtn a{
+  text-decoration: none;
+  color: beige;
+  border: 5px solid white;
+  margin-left: 400px;
+  font-size:xx-large;
+}
+.signbtn a:hover{
+  background-color: darkgreen;
+  color: blanchedalmond;
+}

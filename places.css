@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.icon a{
+    font-family: cursive;
+}
+.title c{
+    font-family: fantasy;
+    color: darkgreen;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 30px;
+    margin-top: 30px;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
+.content {
+    width: 800px;
+    height: 325px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top:45%;
+    left: 30%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+.container{
+    margin-top: 110mm;
+}
+img{
+    float:top;
+}
+.row h5{
+    color: white;
+}
+
+
+    
