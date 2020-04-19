@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="signin.css">
+    <script type="text/javascript" src="signin.js"></script>
 </head>
- <body background="images/beaches.jpg">  <!--background-->
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">   
+     <body background="images/beaches.jpg">  <!--background-->
     <div class="login">
         <img src="images/loginlogo.jpg" class="logo">
         <h1>Login here</h1>
@@ -15,9 +17,9 @@
             <input type="text" name="Username" placeholder="Enter Username">
             <p>Password</p>
             <input type="password" name="Password" placeholder="Enter Password">
-            <div class="signup">
-                <a href="district.html">LOGIN</a></div>
-            <a href="#">Forget Password</a>
+            <div class="button">
+               <input type="submit" value="Login">
+              </div>
         </form>
     </div>
 </body>

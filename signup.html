@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp Page</title>
-    <link rel="stylesheet" href="signup.css">
-</head>
-<body background="images/beaches.jpg">
-    <div class="signup">
+<html>
+    <head>
+        <title>Sign up to {this}</title>
+        <link rel="stylesheet" type="text/css" href="signup.css" />
+        <script type="text/javascript" src="signup.js"></script>
+    </head>
+    <body background="images/beaches.jpg">
+        
+        <form action=district.html onsubmit="return validate()">
+        <div class="signup">
         <img src="images/loginlogo.jpg" class="logo">
-        <h1>SignUp here</h1>
-        <form>
-            
-            <p>Firstname</p>
-            <input type="text" name="Firstname" placeholder="Enter Firstname">
-            <p>Lastname</p>
-            <input type="text" name="Lastname" placeholder="Enter Lastname">
-            <p>e-mail id</p>
-            <input type="text" name="e-mail id" placeholder="Enter e-mail id">
-            <p>Username</p>
-            <input type="text" name="Username" placeholder="Enter Username">
-            <p>Password</p>
-            <input type="password" name="Password" placeholder="Enter Password">
-            <p>Renter Password</p>
-            <input type="password" name="Password" placeholder="Enter Password again">
-            <div class="signbtn">
-              <a href="signin.html">SIGN UP</a>
-              </div>
-            <a href="#">Forget Password</a>
-        </form>
-    </div>
+            <h1>Sign up here</h1>
+        
+      	Name<br>
+      	<input type="text" name="name" ><br>
+        Email<br>
+	   <input type="text" name="email" ><br>
+        Phone Number (xxx-xxx-xxxx ,xxx.xxx.xxx, xxx xxx xxx)<br>
+      	<input type="text" name="phone" pattern="^\d{3}-\d{3}-\d{4}$" ><br>
+        Create a password<br>
+	   <input type="password" name="password" d><br>
+        Retype password<br>
+	   <input type="password" name="retype_password" ><br>
+        
+        <label>
+          <input type="checkbox" name="terms">By signing up to {this} you agree to your
+           <a href="#service">Terms of Service</a> and <a href="#policy">Privacy Policy</a>
+        </label>
+          
+      	<div class="button">
+          <input type="submit" class="button" value="Set Up Account">
+        </div>
+        
+	</form>
 </body>
 </html>
